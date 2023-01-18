@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Food Filter</title>
+</head>
+
+<body>
+    <h1 class="head">Food Item List</h1>
+    <div class="container-food-list">
+    </div>
+    <div class="images"></div>
+
+    <div class="container-filter">
+        <h1>Filter</h1>
+
+        <div class="filter">
+            <button onclick="Filter()" class="all ">All</button>
+            <button onclick="Filter('breakfast')" class="breakfast ">Breakfast</button>
+            <button onclick="Filter('calories')" class="calories ">Calories < 300</button>
+            <button onclick="Filter('junk')" class="junk ">Junk Food</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
